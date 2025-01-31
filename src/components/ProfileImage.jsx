@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ProfileImage = () => {
+const ProfileImage = ({image}) => {
     return ( 
         <img
-        src={tweet.user.image}
+        src={image}
         className="profile"
         alt="profile"
       />
